@@ -128,16 +128,20 @@ h3 {
 
 
 .combos {
-    background: rgb(94, 49, 16);
+    background-color:rgb(143, 189, 211) ;
     text-align: center;
-    color: rgb(228, 162, 86);
+    color: rgb(231, 197, 158);
+    text-align: center;
+    color: rgb(243, 242, 242);
     font-style: italic;
-    font-size: 40px;
-    font-family: serif;
-    font-family: Georgia, serif;
+    font-size: 80px;
+    font-family:  georgia,serif;
 }
 
 
+.navCombos{  background:rgb(142, 50, 0) ;
+  
+}
 
 .diferentescombos {
     display: flex;
