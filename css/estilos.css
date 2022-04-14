@@ -183,9 +183,9 @@ h3 {
 .nosotras {
     color: rgb(231, 197, 158);
     ;
-    background: rgb(94, 49, 16);
+    background:rgb(142, 50, 0) ;
     text-align: center;
-    color: rgb(228, 162, 86);
+    ;
     font-style: italic;
     font-size: 40px;
     font-family: serif;
@@ -195,15 +195,16 @@ h3 {
 }
 
 .navNosotras {
-    background-color: rgb(231, 197, 158);
+    background-color: rgb(143, 189, 211);
     text-align: center;
 
 }
 
-
-.fondoFoto {
-    background-image: url(fondo\ corazon.png.png);
+.navContactanos{
+   background-color: rgb(142, 50, 0) 
 }
+
+
 
 .bodyContactanos {
     display: flex;
@@ -215,6 +216,7 @@ h3 {
 }
 
 .batiendoconamor {
+
     text-align: center;
 
 
@@ -233,17 +235,17 @@ form {
 
 .Queremos {
     text-align: center;
-    color: rgb(59, 38, 23);
+    color: rgb(253, 251, 249);
     font-style: italic;
     font-size: 40px;
     font-family: Georgia, serif;
     line-height: normal;
-    background-color: rgb(228, 162, 86);
+   background:rgb(143, 189, 211);
 
 }
 
 .info {
-    background-color: rgb(231, 197, 158);
+    background-color: rgb();
 }
 
 /*grids index*/
