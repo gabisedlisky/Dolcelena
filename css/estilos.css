@@ -45,7 +45,8 @@ nav {
 
 
 li {
-    color: rgb(142, 50, 0); border: none;
+    color: rgb(142, 50, 0);
+    border: none;
     padding: 8px 22px;
     text-align: center;
     text-decoration: none;
@@ -183,7 +184,7 @@ h3 {
 .nosotras {
     color: rgb(231, 197, 158);
     ;
-    background:rgb(142, 50, 0) ;
+    background: rgb(142, 50, 0);
     text-align: center;
     ;
     font-style: italic;
@@ -200,8 +201,8 @@ h3 {
 
 }
 
-.navContactanos{
-   background-color: rgb(142, 50, 0) 
+.navContactanos {
+    background-color: rgb(142, 50, 0)
 }
 
 
@@ -240,7 +241,7 @@ form {
     font-size: 40px;
     font-family: Georgia, serif;
     line-height: normal;
-   background:rgb(143, 189, 211);
+    background: rgb(143, 189, 211);
 
 }
 
