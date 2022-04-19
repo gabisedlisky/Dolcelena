@@ -10,7 +10,7 @@ body {
 
 
 .titulo {
-   
+
     text-align: center;
     color: rgb(142, 50, 0);
     font-style: italic;
@@ -86,7 +86,7 @@ p {
     background-color: rgba(228, 162, 86, 0);
 }
 
-.parrafe{
+.parrafe {
     color: rgb(142, 50, 0);
     animation-duration: 3s;
     animation-name: slidein;
