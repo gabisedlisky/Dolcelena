@@ -1,0 +1,59 @@
+.header {
+    background-color: $colorFondo;
+
+.titulo {
+
+    text-align: center;
+    color: $colorTitulos;
+    font-style: italic;
+    font-size: 60px;
+    font-family: Georgia, serif;
+    line-height: normal;   }
+
+.subtitulo {
+    background: $colorSubtitulos;
+    text-align: center;
+    color: $colorLetras;
+    font-style: italic;
+    font-size: 40px;
+    font-family: serif;
+    font-family: Georgia, serif;  }
+
+.navegador {
+    background-color:$colorTitulos;
+    text-align: center;  }
+
+ul li a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+    color: $colorLetras;
+    list-style-type: none;
+    font-style: italic;
+    font-size: 25px;
+    font-family: Georgia, serif;
+}
+li{
+    border: none;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+}
+
+
+.main{
+    p {
+        text-align: center;
+        color:$colorTitulos;
+        font-style: italic;
+        font-size: 20px;
+        font-family: Georgia, serif;
+        line-height: normal;
+       
+    }
+}
