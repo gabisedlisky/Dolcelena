@@ -34,10 +34,18 @@ body {
     text-align: center;
 }
 
-nav {
-    background-color: rgba(231, 197, 158, 0);
+ul li a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
     text-align: center;
+    color: rgb(243, 243, 243);
+    list-style-type: none;
+    font-style: italic;
+    font-size: 25px;
+    font-family: Georgia, serif;
 }
+
 
 .parrafito {
     text-align: center;
@@ -114,17 +122,7 @@ h3 {
     font-family: Georgia, serif;
 }
 
-ul li a {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(243, 243, 243);
-    list-style-type: none;
-    font-style: italic;
-    font-size: 25px;
-    font-family: Georgia, serif;
-}
+
 
 footer {
     text-align: center;
@@ -162,9 +160,7 @@ h3 {
     font-family: georgia, serif;
 }
 
-.navCombos {
-    background: rgb(142, 50, 0);
-}
+
 
 h2 {
 
@@ -220,16 +216,9 @@ h3 {
 }
 
 
-.navNosotras {
-    background-color: rgb(143, 189, 211);
-    text-align: center;
-}
 
 
 
-.navContactanos {
-    background-color: rgb(142, 50, 0);
-}
 
 .bodyContactanos {
     display: flex;

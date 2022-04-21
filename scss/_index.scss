@@ -1,59 +1,97 @@
 .header {
     background-color: $colorFondo;
 
-.titulo {
+    .titulo {
 
-    text-align: center;
-    color: $colorTitulos;
-    font-style: italic;
-    font-size: 60px;
-    font-family: Georgia, serif;
-    line-height: normal;   }
+        text-align: center;
+        color: $colorTitulos;
+        font-style: italic;
+        font-size: 60px;
+        font-family: Georgia, serif;
+        line-height: normal;
+    }
 
-.subtitulo {
-    background: $colorSubtitulos;
-    text-align: center;
-    color: $colorLetras;
-    font-style: italic;
-    font-size: 40px;
-    font-family: serif;
-    font-family: Georgia, serif;  }
+    .subtitulo {
+        background: $colorSubtitulos;
+        text-align: center;
+        color: $colorLetras;
+        font-style: italic;
+        font-size: 40px;
+        font-family: serif;
+        font-family: Georgia, serif;
+    }
 
-.navegador {
-    background-color:$colorTitulos;
-    text-align: center;  }
+    .navegador {
+        background-color: $colorTitulos;
+        text-align: center;
+    }
 
-ul li a {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    text-align: center;
-    color: $colorLetras;
-    list-style-type: none;
-    font-style: italic;
-    font-size: 25px;
-    font-family: Georgia, serif;
+    ul li a {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        text-align: center;
+        color: $colorLetras;
+        list-style-type: none;
+        font-style: italic;
+        font-size: 25px;
+        font-family: Georgia, serif;
+    }
+
+    li {
+        border: none;
+        padding: 8px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+    }
+
 }
-li{
-    border: none;
-    padding: 8px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-}
-
-}
 
 
-.main{
+.main {
     p {
         text-align: center;
-        color:$colorTitulos;
+        color: $colorTitulos;
         font-style: italic;
         font-size: 20px;
         font-family: Georgia, serif;
         line-height: normal;
-       
+
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: $colorTitulos;
+
+    ul li a {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        text-align: center;
+        color: $colorLetras;
+        list-style-type: none;
+        font-style: italic;
+        font-size: 25px;
+        font-family: Georgia, serif;
+    }
+
+    li {
+        color: $colorTitulos;
+        border: none;
+        padding: 8px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+    }
+
+    h3 {
+        color: $colorLetras;
+        font-size: 14px;
+        font-style: italic;
+        font-family: Georgia, serif;
     }
 }
