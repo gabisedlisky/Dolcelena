@@ -1,5 +1,18 @@
-$colorFondo:#ffebc1;
+$colorFondo: #ffebc1;
 $colorTitulos: #8e3200;
-$colorSubtitulos:#8fbdd3;
+$colorSubtitulos: #8fbdd3;
 $colorLetras: #ffff;
 
+$redes: (
+    instagram: #ffebc1,
+    facebook: #8e3200,
+    whatsapp: #8fbdd3,
+
+) ;
+
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+    }
+
+};
