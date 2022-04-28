@@ -3,16 +3,26 @@ $colorTitulos: #8e3200;
 $colorSubtitulos: #8fbdd3;
 $colorLetras: #ffff;
 
-$redes: (
-    instagram: #ffebc1,
+$redes: (instagram: #ffebc1,
     facebook: #8e3200,
     whatsapp: #8fbdd3,
+);
 
-) ;
 
-@each $red, $color in $redes {
+@each $red,
+$color in $redes {
     .btn--#{$red} {
         background-color: $color;
     }
-
 };
+
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.img {
+    @include sizes(50px, 50px);
+
+}
