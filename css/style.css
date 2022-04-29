@@ -58,6 +58,9 @@
     font-size: 20px;
     font-family: Georgia, serif;
     line-height: normal; }
+  .main img {
+    width: 100%;
+    max-width: 400px; }
 
 .footer {
   text-align: center;
@@ -127,3 +130,24 @@ main {
     text-align: center;
     background-color: rgba(231, 197, 158, 0);
     font-size: 30px; }
+
+.atrasdeproductos {
+  background-color: #8e3200;
+  text-align: center; }
+
+.productos {
+  text-align: center;
+  color: rgba(243, 245, 243, 0.993);
+  font-style: italic;
+  font-size: 50px;
+  font-family: serif;
+  font-family: Georgia, serif;
+  line-height: normal;
+  background-color: #8fbdd3; }
+
+main {
+  background-color: #ffebc1; }
+  main img {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
