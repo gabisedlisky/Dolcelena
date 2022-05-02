@@ -1,0 +1,74 @@
+body {
+    background-color: $colorFondo;
+
+    header {
+        background-color: $colorFondo;
+
+        .navegador {
+            background-color: $colorTitulos;
+            text-align: center;
+
+        }
+
+        ul li a {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            text-align: center;
+            color: $colorLetras;
+            list-style-type: none;
+            font-style: italic;
+            font-size: 25px;
+            font-family: Georgia, serif;
+
+
+        }
+
+        li {
+
+            border: none;
+            padding: 8px 22px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+
+        }
+
+
+
+    }
+
+    main {
+        background-color: $colorFondo;
+
+        .batiendoconamor {
+            display: flex;
+            justify-items: center;
+
+
+
+        }
+
+        .Queremos {
+            background: $colorSubtitulos;
+            text-align: center;
+            color: $colorLetras;
+            font-style: italic;
+            font-size: 40px;
+            font-family: serif;
+            font-family: Georgia, serif;
+        }
+
+
+        form {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            flex-direction: column;
+            text-align: left;
+            list-style-type: none;
+        }
+    }
+
+}

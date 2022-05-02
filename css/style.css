@@ -151,3 +151,80 @@ main {
     display: flex;
     align-items: center;
     justify-content: center; }
+
+header .nosotras {
+  color: #fafafa;
+  background: #8e3200;
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  font-family: serif;
+  font-family: Georgia, serif; }
+
+main .parrafe {
+  color: #8e3200;
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+main img {
+  -webkit-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
+  -moz-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
+  box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93); }
+
+footer {
+  -webkit-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
+  -moz-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
+  box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93); }
+
+body {
+  background-color: #ffebc1; }
+  body header {
+    background-color: #ffebc1; }
+    body header .navegador {
+      background-color: #8e3200;
+      text-align: center; }
+    body header ul li a {
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+      text-align: center;
+      color: #ffff;
+      list-style-type: none;
+      font-style: italic;
+      font-size: 25px;
+      font-family: Georgia, serif; }
+    body header li {
+      border: none;
+      padding: 8px 22px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px; }
+  body main {
+    background-color: #ffebc1; }
+    body main .batiendoconamor {
+      display: flex;
+      justify-items: center; }
+    body main .Queremos {
+      background: #8fbdd3;
+      text-align: center;
+      color: #ffff;
+      font-style: italic;
+      font-size: 40px;
+      font-family: serif;
+      font-family: Georgia, serif; }
+    body main form {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+      flex-direction: column;
+      text-align: left;
+      list-style-type: none; }
