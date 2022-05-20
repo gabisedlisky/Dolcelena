@@ -26,8 +26,7 @@
     color: #ffff;
     font-style: italic;
     font-size: 40px;
-    font-family: serif;
-    font-family: Georgia, serif; }
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
   .header .navegador {
     background-color: #8e3200;
     text-align: center; }
@@ -40,7 +39,7 @@
     list-style-type: none;
     font-style: italic;
     font-size: 25px;
-    font-family: Georgia, serif; }
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif serif; }
   .header li {
     border: none;
     padding: 8px 22px;
@@ -56,7 +55,7 @@
     color: #8e3200;
     font-style: italic;
     font-size: 20px;
-    font-family: Georgia, serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif serif;
     line-height: normal; }
   .main img {
     width: 100%;
@@ -114,13 +113,12 @@ main {
     color: #f3f2f2;
     font-style: italic;
     font-size: 60px;
-    font-family: georgia, serif; }
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
   main h2 {
     text-align: center;
     font-style: italic;
     font-size: 40px;
-    font-family: serif;
-    font-family: Georgia, serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif serif;
     color: #8e3200; }
   main .diferentescombos {
     display: flex;
@@ -140,8 +138,7 @@ main {
   color: rgba(243, 245, 243, 0.993);
   font-style: italic;
   font-size: 50px;
-  font-family: serif;
-  font-family: Georgia, serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   line-height: normal;
   background-color: #8fbdd3; }
 
@@ -158,21 +155,12 @@ header .nosotras {
   text-align: center;
   font-style: italic;
   font-size: 40px;
-  font-family: serif;
-  font-family: Georgia, serif; }
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 main .parrafe {
   color: #8e3200;
   animation-duration: 3s;
-  animation-name: slidein; }
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; }
-  to {
-    margin-left: 0%;
-    width: 100%; } }
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif serif; }
 
 main img {
   -webkit-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
@@ -217,14 +205,13 @@ body {
       background: #8fbdd3;
       text-align: center;
       color: #ffff;
-      font-style: italic;
       font-size: 40px;
-      font-family: serif;
-      font-family: Georgia, serif; }
-    body main form {
-      width: 100%;
-      max-width: 300px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+    body main .formularioss {
+      max-width: 50em;
+      padding: 1.3em;
       margin: 0 auto;
-      flex-direction: column;
-      text-align: left;
-      list-style-type: none; }
+      background-color: #ffebc1;
+      font-weight: bold;
+      border-radius: 0.5em;
+      box-shadow: inset 1px 1px 50px 0.5px #8fbdd3; }

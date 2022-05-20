@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body class="container-fluid">
+<body class="container-fluid ">
     <header clas="row header">
-        <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 ">
             <div class="animate__animated animate__fadeIn navegador">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
@@ -31,38 +31,37 @@
         </div>
     </header>
     <main class="row main ">
-        <div >
-            <div class="batiendoconamor justify-content-center ">
-                <img src="../imagenes/batiendo con amor cada historia.jpg" alt="distintos productos" width="300"
-                    height="300" class=" rounded-3 queremos" />
-            </div>
-
+        <div>
             <h2 class="animate__animated animate__lightSpeedInRight Queremos">
                 Queremos Saber sobre vos!
             </h2>
             <div class="info">
-                <form class="justify-content-center ">
-                    <li><input type="text" placeholder="Ingrese su nombre" /></li>
-                    <li><input type="text" placeholder="Ingrese su Apellido" /></li>
-                    <li><input type="email" placeholder="Ingrese su E-mail" /></li>
-                    <li>
-                        <select name="" id="">
-                            <option value="arg">Argentina</option>
-                            <option value="ur">Uruguay</option>
-                            <option value="Pa">Paraguay</option>
+                <form class="formularioss animate__animated animate__fadeIn navegador">
+                    <div class="form group"> <input type="text" placeholder="Nombre:" name="nombre" required
+                            class="form-control"></div>
+                    <div class="form group"><input type="text" placeholder="Apellido:" name="apellido" required
+                            class="form-control"></div>
+                    <div class="form group"><input type="email" placeholder="Email:" name="email" required
+                            class="form-control"></div>
+                    <div class="form group"><input type="text" name="whatsapp" placeholder="WhatsApp:"
+                            class="form-control"></div>
+                    <div class="form group">
+                        <select name="categorias" class="form-control">
+                            <option value="consulta">Consulta General</option>
+                            <option value="productos">Compra de Productos</option>
+                            <option value="eventos">Servicios de mesas dulces para Eventos</option>
                         </select>
-                    </li>
-                    <li>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su historia"></textarea>
-                    </li>
-                    <input type="checkbox" value="1" class="justify-content-center"/>Acepta recibir promociones y
-                    ofertas.
-
-                    <input type="submit" />
-                    <input type="reset" value="Ups, me equivoqué" />
+                    </div>
+                    <div class="form group">
+                        <textarea name="mensaje" cols="30" rows="4" placeholder="Deja tu historia o mensaje aquí:"
+                            class="form-control"></textarea>
+                    </div>
+                    <button type="submit" value="Enviar Mensaje" class="btn btn-primary btn-block btn">ENVIAR</button>
                 </form>
             </div>
+
         </div>
+        
     </main>
 
     <footer class="row footer">

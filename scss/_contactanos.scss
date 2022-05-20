@@ -7,7 +7,6 @@ body {
         .navegador {
             background-color: $colorTitulos;
             text-align: center;
-
         }
 
         ul li a {
@@ -20,8 +19,6 @@ body {
             font-style: italic;
             font-size: 25px;
             font-family: Georgia, serif;
-
-
         }
 
         li {
@@ -32,11 +29,7 @@ body {
             text-decoration: none;
             display: inline-block;
             margin: 4px 2px;
-
         }
-
-
-
     }
 
     main {
@@ -45,29 +38,25 @@ body {
         .batiendoconamor {
             display: flex;
             justify-items: center;
-
-
-
         }
 
         .Queremos {
             background: $colorSubtitulos;
             text-align: center;
             color: $colorLetras;
-            font-style: italic;
             font-size: 40px;
-            font-family: serif;
-            font-family: Georgia, serif;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           
         }
 
-
-        form {
-            width: 100%;
-            max-width: 300px;
+        .formularioss {
+            max-width: 50em;
+            padding: 1.3em;
             margin: 0 auto;
-            flex-direction: column;
-            text-align: left;
-            list-style-type: none;
+            background-color: $colorFondo;
+            font-weight: bold;
+            border-radius: 0.5em;
+            box-shadow: inset 1px 1px 50px 0.5px $colorSubtitulos;
         }
     }
 

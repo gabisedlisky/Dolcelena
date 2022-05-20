@@ -6,8 +6,8 @@ header {
         text-align: center;
         font-style: italic;
         font-size: 40px;
-        font-family: serif;
-        font-family: Georgia, serif;
+       
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
 }
@@ -16,21 +16,11 @@ main {
     .parrafe {
         color: rgb(142, 50, 0);
         animation-duration: 3s;
-        animation-name: slidein;
+       
+        font-family:  'Open Sans', 'Helvetica Neue', sans-serif serif;
     }
 
-    @keyframes slidein {
-        from {
-            margin-left: 100%;
-            width: 300%
-        }
-
-        to {
-
-            margin-left: 0%;
-            width: 100%;
-        }
-    }
+    
 
     img {
         -webkit-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);

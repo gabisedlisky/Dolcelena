@@ -2,7 +2,6 @@
     background-color: $colorFondo;
 
     .titulo {
-
         text-align: center;
         color: $colorTitulos;
         font-style: italic;
@@ -17,14 +16,17 @@
         color: $colorLetras;
         font-style: italic;
         font-size: 40px;
-        font-family: serif;
-        font-family: Georgia, serif;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       
     }
+
+
 
     .navegador {
         background-color: $colorTitulos;
         text-align: center;
     }
+
 
     ul li a {
         display: flex;
@@ -35,8 +37,7 @@
         list-style-type: none;
         font-style: italic;
         font-size: 25px;
-        font-family: Georgia, serif;
-        
+        font-family:  'Open Sans', 'Helvetica Neue', sans-serif serif;
     }
 
     li {
@@ -46,28 +47,25 @@
         text-decoration: none;
         display: inline-block;
         margin: 4px 2px;
-        
     }
-
 }
-
 
 .main {
     text-align: center;
+
     p {
         text-align: center;
         color: $colorTitulos;
         font-style: italic;
         font-size: 20px;
-        font-family: Georgia, serif;
+        font-family:  'Open Sans', 'Helvetica Neue', sans-serif serif;
         line-height: normal;
+    }
 
-    }
     img {
-        width:100%;
-        max-width:400px;
+        width: 100%;
+        max-width: 400px;
     }
-    
 }
 
 .footer {
