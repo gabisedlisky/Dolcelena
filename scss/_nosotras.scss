@@ -6,8 +6,8 @@ header {
         text-align: center;
         font-style: italic;
         font-size: 40px;
-       
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
 }
@@ -17,21 +17,22 @@ main {
         color: rgb(142, 50, 0);
         animation-duration: 3s;
        
-        font-family:  'Open Sans', 'Helvetica Neue', sans-serif serif;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif serif;
     }
 
-    
+
 
     img {
-        -webkit-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
-        -moz-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
-        box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
+        text-decoration: none;
+        text-align: center;
+        line-height: normal;
+        border-radius: 130px;
+        padding: 50px;
+    }
+    .niña
+    { width: 200%;
+        max-width: 500px;
+        background-color: $colorFondo;
     }
 
-}
-
-footer {
-    -webkit-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
-    -moz-box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
-    box-shadow: -1px 0px 30px 0px rgba(85, 41, 21, 0.93);
 }

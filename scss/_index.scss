@@ -4,9 +4,8 @@
     .titulo {
         text-align: center;
         color: $colorTitulos;
-        font-style: italic;
-        font-size: 60px;
-        font-family: Georgia, serif;
+        font-size: 80px;
+        font-family: 'Katibeh';
         line-height: normal;
     }
 
@@ -16,16 +15,17 @@
         color: $colorLetras;
         font-style: italic;
         font-size: 40px;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-       
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
     }
 
 
 
-    .navegador {
-        background-color: $colorTitulos;
-        text-align: center;
+    .carrousel-item {
+        display: grid;
+        place-content: center;
     }
+
+
 
 
     ul li a {
@@ -35,9 +35,8 @@
         text-align: center;
         color: $colorLetras;
         list-style-type: none;
-        font-style: italic;
-        font-size: 25px;
-        font-family:  'Open Sans', 'Helvetica Neue', sans-serif serif;
+        font-size: 35px;
+        font-family: "Katibeh";
     }
 
     li {
@@ -56,36 +55,52 @@
     p {
         text-align: center;
         color: $colorTitulos;
-        font-style: italic;
-        font-size: 20px;
-        font-family:  'Open Sans', 'Helvetica Neue', sans-serif serif;
+        font-size: 30px;
+        font-family: "Katibeh";
         line-height: normal;
+        border-radius: 110px;
+        padding: 10px;
     }
 
-    img {
-        width: 100%;
-        max-width: 400px;
+    article {
+        text-decoration: none;
+        text-align: center;
+        line-height: normal;
+        border-radius: 130px;
+        padding: 50px;
+    }
+
+    .carrusel {
+        width: 200%;
+        max-width: 500px;
     }
 }
 
+
+
+
 .footer {
+
+
+
+
     text-align: center;
     background-color: $colorTitulos;
 
     ul li a {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         text-decoration: none;
         text-align: center;
         color: $colorLetras;
         list-style-type: none;
         font-style: italic;
-        font-size: 25px;
-        font-family: Georgia, serif;
+        font-size: 35px;
+        font-family: 'Katibeh', cursive;
     }
 
     li {
-        color: $colorTitulos;
         border: none;
         padding: 8px 22px;
         text-align: center;
@@ -96,8 +111,8 @@
 
     h3 {
         color: $colorLetras;
-        font-size: 14px;
-        font-style: italic;
-        font-family: Georgia, serif;
+        font-size: 25px;
+        font-family: 'Katibeh', cursive;
+
     }
 }

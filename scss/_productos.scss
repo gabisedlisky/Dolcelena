@@ -8,19 +8,24 @@
     color: rgba(243, 245, 243, 0.993);
     font-style: italic;
     font-size: 50px;
-    
+
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height: normal;
     background-color: rgb(143, 189, 211);
 }
 
-main{
-    background-color:$colorFondo ;
-    img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+main {
+    text-decoration: none;
+    text-align: center;
+    line-height: normal;
+    border-radius: 130px;
+    padding: 50px;
 
+    img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $colorTitulos;
     }
+
+}

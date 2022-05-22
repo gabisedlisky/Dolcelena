@@ -1,60 +1,71 @@
-header{
+body {
+    header {
 
-    .navegador {
-        background-color: $colorTitulos;
-        text-align: center;    }
+        .navegador {
+            background-color: $colorTitulos;
+            text-align: center;
+        }
 
 
 
-    .ul li a {
-        display: flex;
-        justify-content: space-between;
-        text-decoration: none;
+        .ul li a {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            text-align: center;
+            color: $colorLetras;
+            list-style-type: none;
+            font-style: italic;
+            font-size: 25px;
+            font-family: Georgia, serif;
+        }
+
+    }
+
+
+    main {
         text-align: center;
-        color: $colorLetras;
-        list-style-type: none;
-        font-style: italic;
-        font-size: 25px;
-        font-family: Georgia, serif;
-    }
+
+        .combos {
+            background-color: rgb(143, 189, 211);
+            text-align: center;
+
+            text-align: center;
+            color: rgb(243, 242, 242);
+            font-style: italic;
+            font-size: 60px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .madre {
+            width: 200%;
+            max-width: 500px;
+            background-color: $colorTitulos;
+            border-width: 10%;
+        }
+
+
+
+        h2 {
+
+            text-align: center;
+            font-style: italic;
+            font-size: 40px;
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif serif;
+            color: rgb(142, 50, 0);
+            ;
+        }
+
+        .diferentescombos {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: rgba(231, 197, 158, 0);
+            font-size: 30px;
+        }
 
     }
 
-
-main{
-    text-align: center;
-    .combos {
-        background-color: rgb(143, 189, 211);
-        text-align: center;
-        color: rgb(231, 197, 158);
-        text-align: center;
-        color: rgb(243, 242, 242);
-        font-style: italic;
-        font-size: 60px;
-        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    
-    
-    
-    h2 {
-    
-        text-align: center;
-        font-style: italic;
-        font-size: 40px;
-        font-family:'Open Sans', 'Helvetica Neue', sans-serif serif;
-        color: rgb(142, 50, 0);
-        ;
-    }
-    
-    .diferentescombos {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        background-color: rgba(231, 197, 158, 0);
-        font-size: 30px;
-    }
-    
-    }
-
+}

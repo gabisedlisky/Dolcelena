@@ -16,13 +16,13 @@ body {
             text-align: center;
             color: $colorLetras;
             list-style-type: none;
-            font-style: italic;
-            font-size: 25px;
-            font-family: Georgia, serif;
+            font-size: 35px;
+            font-family: 'Katibeh', cursive;
+
+
         }
 
         li {
-
             border: none;
             padding: 8px 22px;
             text-align: center;
@@ -30,6 +30,7 @@ body {
             display: inline-block;
             margin: 4px 2px;
         }
+
     }
 
     main {
@@ -45,8 +46,8 @@ body {
             text-align: center;
             color: $colorLetras;
             font-size: 40px;
-            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-           
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
         }
 
         .formularioss {
