@@ -61,6 +61,10 @@
     line-height: normal;
     padding: 50px; }
 
+@media screen and (max-width: 400px) {
+  .imagen {
+    display: none !important; } }
+
 .footer {
   text-align: center;
   background-color: #8e3200; }

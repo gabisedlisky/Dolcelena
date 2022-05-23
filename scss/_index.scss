@@ -60,10 +60,13 @@
         line-height: normal;
         padding: 50px;
     }
+}
+   
 
-
-    }
-
+@media screen and (max-width: 400px) {
+    .imagen{
+       display: none !important;
+}}
 
 
 
