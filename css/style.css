@@ -21,15 +21,13 @@
     font-family: 'Katibeh';
     line-height: normal; }
   .header .subtitulo {
-    background: #8fbdd3;
     text-align: center;
+    background: #8fbdd3;
+    line-height: normal;
     color: #ffff;
     font-style: italic;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif; }
-  .header .carrousel-item {
-    display: grid;
-    place-content: center; }
   .header ul li a {
     display: flex;
     justify-content: space-between;
@@ -63,9 +61,6 @@
     line-height: normal;
     border-radius: 130px;
     padding: 50px; }
-  .main .carrusel {
-    width: 200%;
-    max-width: 500px; }
 
 .footer {
   text-align: center;
@@ -155,13 +150,13 @@ main {
   text-decoration: none;
   text-align: center;
   line-height: normal;
-  border-radius: 130px;
-  padding: 50px; }
+  border-collapse: collapse; }
   main img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8e3200; }
+    background-color: none;
+    padding: 50px; }
 
 header .nosotras {
   color: #fafafa;
@@ -180,7 +175,6 @@ main img {
   text-decoration: none;
   text-align: center;
   line-height: normal;
-  border-radius: 130px;
   padding: 50px; }
 
 main .niña {

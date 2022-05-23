@@ -18,14 +18,16 @@ main {
     text-decoration: none;
     text-align: center;
     line-height: normal;
-    border-radius: 130px;
-    padding: 50px;
+    border-collapse: collapse;
 
     img {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: $colorTitulos;
+        background-color:none;
+        
+        padding: 50px;
+        
     }
 
 }

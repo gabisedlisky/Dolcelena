@@ -10,22 +10,14 @@
     }
 
     .subtitulo {
-        background: $colorSubtitulos;
         text-align: center;
+        background: $colorSubtitulos;
+        line-height: normal;
         color: $colorLetras;
         font-style: italic;
-        font-size: 40px;
+        font-size: 30px;
         font-family: Impact, 'Arial Narrow Bold', sans-serif;
     }
-
-
-
-    .carrousel-item {
-        display: grid;
-        place-content: center;
-    }
-
-
 
 
     ul li a {
@@ -70,11 +62,11 @@
         padding: 50px;
     }
 
-    .carrusel {
-        width: 200%;
-        max-width: 500px;
+
     }
-}
+
+
+
 
 
 
